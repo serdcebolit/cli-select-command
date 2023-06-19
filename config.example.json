@@ -1,0 +1,31 @@
+{
+    "commands": [
+        {
+            "name": "test 1",
+            "program": "echo",
+            "args": [
+                "1"
+            ]
+        },
+        {
+            "name": "test 2",
+            "program": "echo",
+            "args": [
+                "2"
+            ]
+        },
+        {
+            "name": "ssh example",
+            "program": "plink.exe",
+            "args": [
+                "-ssh",
+                "-no-antispoof",
+                "user@example",
+                "-P",
+                "22",
+                "-pw",
+                "password"
+            ]
+        }
+    ]
+}
