@@ -6,4 +6,11 @@
 mv config.example.json config.json
 ```
 
-Добавить sshl в PATH
+Добавить **sshl** в PATH
+
+## Компилляция
+
+```bash
+go mod tidy
+go build -o sshl
+```
